@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
 import { requireNativeComponent } from 'react-native';
 
-module.exports = requireNativeComponent('RNTMap');
+const RNNaverMapView = requireNativeComponent('RNNaverMapView');
+
+export default RNNaverMapView;
