@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E555C0D2413F4C50049A1A2 /* AwesomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AwesomeModule.m */; };
+		47901C38293A835200BF41B8 /* RNNaverMapPathOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C21293A835100BF41B8 /* RNNaverMapPathOverlay.m */; };
+		47901C39293A835200BF41B8 /* RNNaverMapPolylineOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C22293A835100BF41B8 /* RNNaverMapPolylineOverlayManager.m */; };
+		47901C3A293A835200BF41B8 /* RNNaverMapCircleOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C23293A835100BF41B8 /* RNNaverMapCircleOverlay.m */; };
+		47901C3B293A835200BF41B8 /* RNNaverMapPolylineOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C24293A835100BF41B8 /* RNNaverMapPolylineOverlay.m */; };
+		47901C3C293A835200BF41B8 /* RNNaverMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C26293A835100BF41B8 /* RNNaverMapView.m */; };
+		47901C3D293A835200BF41B8 /* RNNaverMapPathOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C28293A835100BF41B8 /* RNNaverMapPathOverlayManager.m */; };
+		47901C3E293A835200BF41B8 /* RNNaverMapMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C2B293A835100BF41B8 /* RNNaverMapMarkerManager.m */; };
+		47901C3F293A835200BF41B8 /* RNNaverMapMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C2C293A835100BF41B8 /* RNNaverMapMarker.m */; };
+		47901C40293A835200BF41B8 /* RNNaverMapPolygonOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C30293A835100BF41B8 /* RNNaverMapPolygonOverlayManager.m */; };
+		47901C41293A835200BF41B8 /* RCTConvert+NMFMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C31293A835100BF41B8 /* RCTConvert+NMFMapView.m */; };
+		47901C42293A835200BF41B8 /* RNNaverMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C32293A835200BF41B8 /* RNNaverMapViewManager.m */; };
+		47901C43293A835200BF41B8 /* RNNaverMapPolygonOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C34293A835200BF41B8 /* RNNaverMapPolygonOverlay.m */; };
+		47901C44293A835200BF41B8 /* RNNaverMapCircleOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47901C37293A835200BF41B8 /* RNNaverMapCircleOverlayManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +36,31 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libAwesomeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAwesomeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* AwesomeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeModule.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* AwesomeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeModule.m; sourceTree = "<group>"; };
+		47901C1F293A835000BF41B8 /* RNNaverMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapMarker.h; sourceTree = "<group>"; };
+		47901C20293A835100BF41B8 /* RNNaverMapCircleOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapCircleOverlayManager.h; sourceTree = "<group>"; };
+		47901C21293A835100BF41B8 /* RNNaverMapPathOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapPathOverlay.m; sourceTree = "<group>"; };
+		47901C22293A835100BF41B8 /* RNNaverMapPolylineOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapPolylineOverlayManager.m; sourceTree = "<group>"; };
+		47901C23293A835100BF41B8 /* RNNaverMapCircleOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapCircleOverlay.m; sourceTree = "<group>"; };
+		47901C24293A835100BF41B8 /* RNNaverMapPolylineOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapPolylineOverlay.m; sourceTree = "<group>"; };
+		47901C25293A835100BF41B8 /* RNNaverMapPolylineOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapPolylineOverlayManager.h; sourceTree = "<group>"; };
+		47901C26293A835100BF41B8 /* RNNaverMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapView.m; sourceTree = "<group>"; };
+		47901C27293A835100BF41B8 /* RCTConvert+NMFMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+NMFMapView.h"; sourceTree = "<group>"; };
+		47901C28293A835100BF41B8 /* RNNaverMapPathOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapPathOverlayManager.m; sourceTree = "<group>"; };
+		47901C29293A835100BF41B8 /* RNNaverMapMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapMarkerManager.h; sourceTree = "<group>"; };
+		47901C2A293A835100BF41B8 /* RNNaverMapCircleOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapCircleOverlay.h; sourceTree = "<group>"; };
+		47901C2B293A835100BF41B8 /* RNNaverMapMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapMarkerManager.m; sourceTree = "<group>"; };
+		47901C2C293A835100BF41B8 /* RNNaverMapMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapMarker.m; sourceTree = "<group>"; };
+		47901C2D293A835100BF41B8 /* RNNaverMapPathOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapPathOverlayManager.h; sourceTree = "<group>"; };
+		47901C2E293A835100BF41B8 /* RNNaverMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapView.h; sourceTree = "<group>"; };
+		47901C2F293A835100BF41B8 /* RNNaverMapPathOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapPathOverlay.h; sourceTree = "<group>"; };
+		47901C30293A835100BF41B8 /* RNNaverMapPolygonOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapPolygonOverlayManager.m; sourceTree = "<group>"; };
+		47901C31293A835100BF41B8 /* RCTConvert+NMFMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+NMFMapView.m"; sourceTree = "<group>"; };
+		47901C32293A835200BF41B8 /* RNNaverMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapViewManager.m; sourceTree = "<group>"; };
+		47901C33293A835200BF41B8 /* RNNaverMapPolygonOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapPolygonOverlayManager.h; sourceTree = "<group>"; };
+		47901C34293A835200BF41B8 /* RNNaverMapPolygonOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapPolygonOverlay.m; sourceTree = "<group>"; };
+		47901C35293A835200BF41B8 /* RNNaverMapPolygonOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapPolygonOverlay.h; sourceTree = "<group>"; };
+		47901C36293A835200BF41B8 /* RNNaverMapPolylineOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNaverMapPolylineOverlay.h; sourceTree = "<group>"; };
+		47901C37293A835200BF41B8 /* RNNaverMapCircleOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNaverMapCircleOverlayManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +85,31 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* AwesomeModule.h */,
-				B3E7B5891CC2AC0600A0062D /* AwesomeModule.m */,
+				47901C27293A835100BF41B8 /* RCTConvert+NMFMapView.h */,
+				47901C31293A835100BF41B8 /* RCTConvert+NMFMapView.m */,
+				47901C2A293A835100BF41B8 /* RNNaverMapCircleOverlay.h */,
+				47901C23293A835100BF41B8 /* RNNaverMapCircleOverlay.m */,
+				47901C20293A835100BF41B8 /* RNNaverMapCircleOverlayManager.h */,
+				47901C37293A835200BF41B8 /* RNNaverMapCircleOverlayManager.m */,
+				47901C1F293A835000BF41B8 /* RNNaverMapMarker.h */,
+				47901C2C293A835100BF41B8 /* RNNaverMapMarker.m */,
+				47901C29293A835100BF41B8 /* RNNaverMapMarkerManager.h */,
+				47901C2B293A835100BF41B8 /* RNNaverMapMarkerManager.m */,
+				47901C2F293A835100BF41B8 /* RNNaverMapPathOverlay.h */,
+				47901C21293A835100BF41B8 /* RNNaverMapPathOverlay.m */,
+				47901C2D293A835100BF41B8 /* RNNaverMapPathOverlayManager.h */,
+				47901C28293A835100BF41B8 /* RNNaverMapPathOverlayManager.m */,
+				47901C35293A835200BF41B8 /* RNNaverMapPolygonOverlay.h */,
+				47901C34293A835200BF41B8 /* RNNaverMapPolygonOverlay.m */,
+				47901C33293A835200BF41B8 /* RNNaverMapPolygonOverlayManager.h */,
+				47901C30293A835100BF41B8 /* RNNaverMapPolygonOverlayManager.m */,
+				47901C36293A835200BF41B8 /* RNNaverMapPolylineOverlay.h */,
+				47901C24293A835100BF41B8 /* RNNaverMapPolylineOverlay.m */,
+				47901C25293A835100BF41B8 /* RNNaverMapPolylineOverlayManager.h */,
+				47901C22293A835100BF41B8 /* RNNaverMapPolylineOverlayManager.m */,
+				47901C2E293A835100BF41B8 /* RNNaverMapView.h */,
+				47901C26293A835100BF41B8 /* RNNaverMapView.m */,
+				47901C32293A835200BF41B8 /* RNNaverMapViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,7 +171,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* AwesomeModule.m in Sources */,
+				47901C3A293A835200BF41B8 /* RNNaverMapCircleOverlay.m in Sources */,
+				47901C43293A835200BF41B8 /* RNNaverMapPolygonOverlay.m in Sources */,
+				47901C41293A835200BF41B8 /* RCTConvert+NMFMapView.m in Sources */,
+				47901C42293A835200BF41B8 /* RNNaverMapViewManager.m in Sources */,
+				47901C3F293A835200BF41B8 /* RNNaverMapMarker.m in Sources */,
+				47901C39293A835200BF41B8 /* RNNaverMapPolylineOverlayManager.m in Sources */,
+				47901C3B293A835200BF41B8 /* RNNaverMapPolylineOverlay.m in Sources */,
+				47901C3E293A835200BF41B8 /* RNNaverMapMarkerManager.m in Sources */,
+				47901C3D293A835200BF41B8 /* RNNaverMapPathOverlayManager.m in Sources */,
+				47901C40293A835200BF41B8 /* RNNaverMapPolygonOverlayManager.m in Sources */,
+				47901C38293A835200BF41B8 /* RNNaverMapPathOverlay.m in Sources */,
+				47901C44293A835200BF41B8 /* RNNaverMapCircleOverlayManager.m in Sources */,
+				47901C3C293A835200BF41B8 /* RNNaverMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
