@@ -181,21 +181,7 @@ RCT_EXPORT_METHOD(setLayerGroupEnabled:(nonnull NSNumber *)reactTag
     id view = viewRegistry[reactTag];
     if (![view isKindOfClass:[RNNaverMapView class]]) {
       RCTLogError(@"Invalid view returned from registry, expecting NMFMapView, got: %@", view);
-    } else {
-      if ([group isEqualToString:@"building"]) {
-        [((RNNaverMapView *)view).mapView setLayerGroup:NMF_LAYER_GROUP_BUILDING isEnabled:enabled];
-      } else if ([group isEqualToString:@"ctt"]) {
-        [((RNNaverMapView *)view).mapView setLayerGroup:NMF_LAYER_GROUP_TRAFFIC isEnabled:enabled];
-      } else if ([group isEqualToString:@"transit"]) {
-        [((RNNaverMapView *)view).mapView setLayerGroup:NMF_LAYER_GROUP_TRANSIT isEnabled:enabled];
-      } else if ([group isEqualToString:@"bike"]) {
-        [((RNNaverMapView *)view).mapView setLayerGroup:NMF_LAYER_GROUP_BICYCLE isEnabled:enabled];
-      } else if ([group isEqualToString:@"mountain"]) {
-        [((RNNaverMapView *)view).mapView setLayerGroup:NMF_LAYER_GROUP_MOUNTAIN isEnabled:enabled];
-      } else if ([group isEqualToString:@"landparcel"]) {
-        [((RNNaverMapView *)view).mapView setLayerGroup:NMF_LAYER_GROUP_CADASTRAL isEnabled:enabled];
-      }
-    }
+    } 
   }];
 }
 
